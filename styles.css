@@ -1,0 +1,95 @@
+.header {
+    background: linear-gradient(90deg, rgba(255, 105, 180, 1), rgba(255, 255, 0, 1));
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    animation: fadeIn 2s;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(0, 204, 255, 1), rgba(0, 204, 204, 1));
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 229, 204, 1), rgba(204, 229, 255, 1));
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(153, 0, 255, 1), rgba(204, 153, 255, 1));
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background: linear-gradient(90deg, rgba(255, 100, 100, 1), rgba(255, 255, 50, 1));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(90deg, rgba(0, 153, 255, 1), rgba(0, 204, 255, 1));
+    color: white;
+}
+
+a {
+    color: #00f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f00;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
